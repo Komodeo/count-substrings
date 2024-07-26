@@ -2,13 +2,16 @@ package com.grantgotgame.count_substrings;
 
 import java.beans.Transient;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import junit.framework.Assert;
 
 @SpringBootTest
 class CountSubstringsApplicationTests {
 	public static CountSubstringsApplication app;
-	@BeforeClass
+	@BeforeAll
 	public static void setUp(){
 		app = new CountSubstringsApplication();
 	}

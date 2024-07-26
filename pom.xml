@@ -27,7 +27,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>22</java.version>
+		<java.version>21.0.3</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -38,6 +38,13 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.2</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
